@@ -5,6 +5,8 @@
 
 ## Linux
 
+* [Linux 安装](linux/linux-an-zhuang.md)
+* [常用命令](linux/chang-yong-ming-ling.md)
 * [操作系统](linux/operating-system/README.md)
   * [进程和线程](linux/operating-system/jin-cheng-he-xian-cheng.md)
   * [并发模型](linux/operating-system/bing-fa-mo-xing.md)
