@@ -13,11 +13,9 @@
   * [Nginx 搭建](web-server/nginx/nginx-da-jian.md)
 * [Apache](web-server/apache.md)
 
-## Application Server
+## Application-Server
 
----
-
-* [应用服务器介绍](ying-yong-fu-wu-qi-jie-shao.md)
+* [应用服务器](application-server/application-server.md)
 
 ## MySQL
 
