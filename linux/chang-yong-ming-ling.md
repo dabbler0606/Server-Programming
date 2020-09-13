@@ -29,11 +29,15 @@ Mandatory arguments to long options are mandatory for short options too.
 
 所以，当我们忘记参数时，记得 --help。
 
+> man 命令，Linux 下帮助指令，显示 Linux 手册内容，可提供更为详细的信息。
+
+在帮助信息中，我们常常能看到命令使用格式，如上述 ls 的 **Usage**，其中方括号 **\[ \]** 代表可选参数，竖线 **｜** 代表互斥选项。 
+
 ## 文件系统
 
 ### ls
 
-ls 可能是最常用的命令。它可以列出文件目录内容。
+> ls 可能是最常用的命令。它可以列出文件目录内容。
 
 列出当前目录
 
@@ -54,7 +58,7 @@ test.py
 | 选项 |  |  |
 | :--- | :--- | :--- |
 | -a | --all | 列出所有文件，包括 . 开头隐藏文件 |
-| -l |  | 列出详细信息，包括权限、所有者/组、大小、修改日期、文件名等。 |
+| -l |  | 列出详细信息，包括权限、所有者/组、大小、修改日期、文件名等 |
 | -i |  | 列出 inode 节点编号 |
 | -d | --directory | 列出目录信息，而不是目录下文件 |
 | -h | --human-readable | 以人类可读格式列出，主要是文件大小 |
@@ -73,17 +77,82 @@ drwxr-xr-x 2 dabbler0606 dabbler0606 4.0K Sep 13 23:22 project
 drwxr-xr-x 2 dabbler0606 dabbler0606 4.0K Sep 13 23:22 code
 ```
 
+### cd
+
+> 改变当前 shell 的工作目录。
+
+```text
+dabbler0606@dabbler:~$ cd code/
+dabbler0606@dabbler:~/code$ cd .
+dabbler0606@dabbler:~/code$ cd ..
+dabbler0606@dabbler:~$ 
+```
+
+**.** 和 **..** 是两个特殊文件，**.** 标示当前目录，**..** 表示上一层目录。
+
+### touch
+
+> 修改文件时间，也常常被用来创建文件。
+
+### mkdir
+
+> 创建目录。
+
+### cp
+
+> 拷贝文件或目录。
+
+### mv
+
+> 移动或重命名文件。
+
+### rm
+
+> 删除文件或目录。
+
+### ln
+
+> 给文件创建链接。
+
 ## 用户系统
 
-### 添加用户
+### adduser
 
 ```text
 adduser <username>
 ```
 
-### 修改用户密码
+### passwd
 
 ```text
 passwd <username>
 ```
+
+## 权限
+
+### chmod
+
+> 修改文件权限。
+
+### chown
+
+> 更改文件所有者
+
+### chgrp
+
+> 更改文件所属群组
+
+### su
+
+> 切换用户身份
+
+### sudo
+
+> 以另一个身份执行命令
+
+## 进程
+
+### ps
+
+> 查看进行信息
 
