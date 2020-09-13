@@ -9,8 +9,8 @@
 * [常用命令](linux/chang-yong-ming-ling.md)
 * [操作系统](linux/operating-system/README.md)
   * [进程和线程](linux/operating-system/jin-cheng-he-xian-cheng.md)
-  * [并发模型](linux/operating-system/bing-fa-mo-xing.md)
   * [信号](linux/operating-system/xin-hao.md)
+  * [并发模型](linux/operating-system/bing-fa-mo-xing.md)
 * [网络](linux/network.md)
 
 ## Web Server
