@@ -35,20 +35,20 @@
 
 * [Elastic 技术栈](elasticstack/elastic-ji-shu-zhan.md)
 
-## 消息队列
+## 消息队列 <a id="mq"></a>
 
-* [RabbitMQ](xiao-xi-dui-lie/rabbitmq.md)
-* [Kafka](xiao-xi-dui-lie/kafka.md)
+* [RabbitMQ](mq/rabbitmq.md)
+* [Kafka](mq/kafka.md)
 
 ## Storm
 
 * [Storm 介绍](storm/storm-jie-shao.md)
 
-## 性能分析
+## 性能分析 <a id="performance-analysis"></a>
 
-* [基础知识](xing-neng-fen-xi/ji-chu-zhi-shi.md)
+* [基础知识](performance-analysis/ji-chu-zhi-shi.md)
 
-## 项目
+## 项目 <a id="project"></a>
 
-* [小淘购物商城](xiang-mu/xiao-tao-gou-wu-shang-cheng.md)
+* [小淘购物商城](project/xiao-tao-gou-wu-shang-cheng.md)
 
