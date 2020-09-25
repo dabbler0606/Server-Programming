@@ -11,7 +11,8 @@
   * [进程和线程](linux/operating-system/jin-cheng-he-xian-cheng.md)
   * [信号](linux/operating-system/xin-hao.md)
   * [并发模型](linux/operating-system/bing-fa-mo-xing.md)
-* [网络](linux/network.md)
+* [网络](linux/network/README.md)
+  * [WebSocket](linux/network/websocket.md)
 
 ## Web Server
 
