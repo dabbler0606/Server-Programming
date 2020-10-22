@@ -176,3 +176,11 @@ passwd <username>
 $ echo "hello world" | xargs echo
 ```
 
+```````` 和 `$()` 作用相同，被 shell 解释为命令，优先执行 
+
+```text
+$ echo $(echo hello world)
+```
+
+
+
