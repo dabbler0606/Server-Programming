@@ -166,3 +166,13 @@ passwd <username>
 
 > 发送信号给某个进程。通常用来杀死进程。
 
+## 输入输出
+
+### xargs
+
+> 将标准输入转为命令行参数
+
+```text
+$ echo "hello world" | xargs echo
+```
+
